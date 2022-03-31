@@ -1,0 +1,35 @@
+@startmindmap
+scale max 880 width
+scale max 480 height
++[#Orange] Techno Magic 
+++ Meta Data
++++ Data & API model
+++++ Storage model
++++++ Mapping
+++++++ Storage to Param DTO 
++++++ View model
+++++++ Link Operation to View
+++++ Operation model
++++++ Param DTO
++++++ Result DTO
++++ Module desription
+++++ Set of View
+++++ Set of Operation
++++ Application
+++++ Set of Module
++++ System
+++++ Set of Application
+
+
+++[#lightblue] Runtime data
++++[#lightblue] Role 
+++++[#lightblue] Role rights
++++++[#lightblue] CRUD right for View
++++++[#lightblue] right for Operation
+--[#lightgreen] Code generation
+---[#lightgreen] DataBase generator
+---[#lightgreen] API generator
+---[#lightgreen] View generator
+---[#lightgreen] Module generator
+---[#lightgreen] Application generator
+@endmindmap
